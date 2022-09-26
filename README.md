@@ -1,6 +1,6 @@
 # Domino Data Lab ADaM and TFL repository
 
-This repo contains ADaM and TFL code for the Domino clinical trial demo.
+This repo contains ADaM and TFL code for the Domino clinical trial demo
 
 # Directory structure
 
