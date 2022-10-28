@@ -58,8 +58,11 @@
 * Location of Domino Datasets folders that are defined in this project;
 * Likely to change depending whether project is DFS or Git hosted;
 %global __localdata_path;
-%let __localdata_path = /domino/datasets/local;
- 
+* USE THIS FOR DFS PROJECTS ;
+*%let __localdata_path = /domino/datasets/local;
+* USE THIS FOR GIT PROJECTS;
+%let __localdata_path = /mnt/data;
+
 * globals read in from env vars; 
 %global __WORKING_DIR  ; * path to root of working directory ;
 %global __PROJECT_NAME ; * project name <PROTOCOL>_<TYPE> ;
