@@ -248,7 +248,7 @@ data _null_ ;
 run ;
 
 data rep2 ;
-length text $100;
+length text $200;
    set rep1 
        no_trt2
        comp24 (drop= counttype complfl _name_ )
