@@ -32,7 +32,7 @@
 %include "!DOMINO_WORKING_DIR/config/domino.sas";
 *********;
 
-%xpt2loc(filespec='/mnt/data/ADAM/adsl.xpt');
+*%xpt2loc(filespec='/mnt/data/ADAM/adsl.xpt');
 
 data adam.adsl;
 	set adsl;
